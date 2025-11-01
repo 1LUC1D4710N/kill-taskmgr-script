@@ -116,6 +116,16 @@ Once Microsoft releases a Windows Update that fixes the Task Manager background 
 
 You can monitor Windows updates on the [Microsoft Windows Release Health Dashboard](https://learn.microsoft.com/en-us/windows/release-health/) to see when this issue is fixed.
 
+## Easier Quick Solution
+
+If you want a simpler solution, you can use Command Prompt to kill all running Task Manager instances. Here's the command:
+
+```cmd
+taskkill /im taskmgr.exe /f
+```
+
+Simply open Command Prompt or PowerShell and run the command above. This will immediately terminate all Task Manager processes. However, this is a **one-time fix** - if Task Manager lingers again, you'll need to run the command again. Use the script above for an **automatic, continuous solution**.
+
 ## Learning Resources
 
 This script demonstrates:
