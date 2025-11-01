@@ -134,6 +134,7 @@ This script demonstrates:
 - Process monitoring and management
 - System idle time detection
 - Error handling and logging
+- Windows command-line process management (`taskkill` command)
 
 ## License
 
